@@ -90,4 +90,4 @@ def print_database():
 ############################ Main Function #############################
 if __name__ == "__main__":
     # run backend server on http://localhost:5000/
-    app.run(host = 'localhost',port=5000, debug=True)
+    app.run(host = '192.168.2.3',port=5000, debug=True)
