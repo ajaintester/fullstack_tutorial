@@ -227,7 +227,7 @@ class App extends React.Component {
             <InputGroupAddon addonType="prepend">Last Name: </InputGroupAddon>
             <Input value={state["lastName"]} onChange={this.handleChange} id="lastName"/>
           </InputGroup> <br />
-          <Button color="success" onClick={this.handleClick} id="create">Create</Button>{" "}
+          <Button color="success" onClick={this.handleClick} id="create">CreateKaro</Button>{" "}
           <Button color="primary" onClick={this.handleClick} id="read">Read</Button>{" "}
           <Button color="warning" onClick={this.handleClick} id="update">Update</Button>{" "}
           <Button color="danger" onClick={this.handleClick} id="delete">Delete</Button>{" "}
