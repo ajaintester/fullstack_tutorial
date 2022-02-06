@@ -30,7 +30,8 @@ def create_name():
     if not (model.create(data_dict["key"], data_dict)):
         return jsonify({"errorMsg": "bad request"}), 400
     # succeed
-    return jsonify(data_dict), 201
+    #return jsonify(data_dict), 201
+    return jsonify({"errorMsg": "bad request"}), 400
 
 
 ############################## read name ###############################
